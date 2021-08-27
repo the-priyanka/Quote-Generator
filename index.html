@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <div class="quote-container">
+  <div class="quote-container" id="quote-container">
     <div class="quote-text">
       <i class="fa fa-quote-left"></i>
       <span id="quote">What you are is what you have been. What you'll be is what you do now.</span>
@@ -21,14 +21,16 @@
       <span id="author">Buddha</span>
     </div>
     <div class="button-container">
-      <a href="https://twitter.com/?lang=en" target="_blank" rel="noopener noreferrer">
-        <button class="twitter-button" id="twitter" title="Tweet This!">
-          <i class="fa fa-twitter"></i>
-        </button>
-      </a>
+      <button class="twitter-button" id="twitter" title="Tweet This!">
+        <i class="fa fa-twitter"></i>
+      </button>
       <button id="new-quote">New Quote</button>
     </div>
   </div>
+
+  <!-- loader -->
+  <div class="loader" id="loader"></div>
+
 </body>
 <script src="js/quote.js"></script>
 <script src="js/script.js"></script>
