@@ -65,7 +65,7 @@ function tweetQuote() {
   let author = authorText.innerText
   let tweeterUrl = `https://twitter.com/intent/tweet?text=${ quote } - ${ author }`
   window.open(tweeterUrl, "_blank")
-}
+} 
 
 newQuoteBtn.addEventListener('click', newQuote)
 twitter.addEventListener('click', tweetQuote)
